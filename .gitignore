@@ -1,4 +1,4 @@
 pycache/
 *.pyc
 *.csv
-.env
+.env  

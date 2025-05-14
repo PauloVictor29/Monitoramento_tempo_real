@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify, send_file
 import psutil  # Biblioteca para coletar dados do sistema
 import csv
 import os
-from datetime import datetime
+from datetime import datetime 
 
 app = Flask(__name__)
 

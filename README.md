@@ -33,4 +33,4 @@ http://127.0.0.1:5000
 
 
 📦 Exportar dados
-Clique no botão "⬇️ Exportar Histórico CSV" para baixar o histórico de uso de recursos.
+Clique no botão "⬇️ Exportar Histórico CSV" para baixar o histórico de uso de recursos.  

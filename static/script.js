@@ -1,5 +1,5 @@
 // Obtém o elemento canvas do HTML
-const ctx = document.getElementById('grafico').getContext('2d');
+const ctx = document.getElementById('grafico').getContext('2d'); 
 
 // Cria o gráfico com 3 linhas: CPU, Memória e Disco
 const grafico = new Chart(ctx, {
