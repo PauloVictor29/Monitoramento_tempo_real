@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitoramento em Tempo Real</title>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; padding: 20px;">
+    <h1>📊 Monitoramento em Tempo Real</h1>
+
+    <!-- Botão para exportar o arquivo CSV gerado pelo Flask -->
+    <div style="margin-bottom: 20px;">
+        <a href="/exportar" download>
+            <button style="
+                padding: 12px 25px;
+                font-size: 16px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                transition: background-color 0.3s ease;
+            "
+            onmouseover="this.style.backgroundColor='#0056b3'"
+            onmouseout="this.style.backgroundColor='#007bff'">
+                ⬇️ Exportar Histórico CSV
+            </button>
+        </a>
+    </div>
+
+    <!-- Gráfico que será renderizado pelo Chart.js -->
+    <canvas id="grafico" width="800" height="400"></canvas>
+
+    <!-- Biblioteca Chart.js para gráficos -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Script que atualiza o gráfico dinamicamente -->
+    <script src="/static/script.js"></script>
+</body>
+</html>
