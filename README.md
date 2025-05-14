@@ -1,4 +1,4 @@
-# 🖥️ Monitoramento de Recursos do Sistema (NOC)
+# 🖥️ Monitoramento em Tempo Real 
 
 Projeto desenvolvido para simular um ambiente de monitoramento em tempo real de CPU, RAM e Disco, ideal para profissionais de NOC ou infraestrutura.
 
